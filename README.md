@@ -2,4 +2,4 @@
 
 Quick project for a WebGL Gobelins Workshop !
 
-Have a beautiful day :sun:
+Have a beautiful day ☀️

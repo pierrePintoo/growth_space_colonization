@@ -1,4 +1,4 @@
-# growth_space_colonization
+# Growth and limits
 
 Quick project for a WebGL Gobelins Workshop !
 

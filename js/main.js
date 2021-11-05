@@ -33,7 +33,7 @@ scene.add( light );
 scene.fog = new THREE.Fog(0x000000, 50, 100)
 
 // PLANE
-const planeGeometry = new THREE.PlaneGeometry( 150, 150, 150, 150 );
+const planeGeometry = new THREE.PlaneGeometry( 300, 300, 300, 300 );
 const planeMaterial = new THREE.MeshLambertMaterial( {color: 0x2a2a2a} );
 const plane = new THREE.Mesh( planeGeometry, planeMaterial );
 scene.add( plane ); 

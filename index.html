@@ -4,11 +4,63 @@
 		<meta http-equiv="Content-type" content="application/javascript; charset=UTF-8"/>
 		<title>Space Colonization</title>
 		<style>
-			body { margin: 0; }
+			body {
+				margin: 0;
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			}
+			.graph {
+				position: absolute;
+				width: 5vw;
+				height: 5vw;
+				left: 40px;
+				bottom: 40px;
+				border-bottom: #ffa94d 3px solid;
+				border-left: #ffa94d 3px solid;
+			}
+
+			.text {
+				color: #ffa94d;
+			}
+
+			.main_title {
+				font-size: x-large;
+				top: 0;
+				left: 20px;
+				position: absolute;
+			}
+
+			.title {
+				font-weight: 200;
+				font-size: small;
+				position: relative;
+			}
+
+			.indication {
+				position: absolute;
+				font-weight: 200;
+				font-size: 20px;
+				right: 40px;
+				bottom: 40px;
+			}
+
+			.size {
+				transform: rotateZ(-90deg) translateY(-20px);
+				bottom: 20px;
+			}
+
+			.growth {
+				left: 25px;
+				bottom: -10px;
+			}
 		</style>
 	</head>
 	<body>
-		<!-- <h1>hello</h1> -->
+		<h1 class="text main_title">Concept of growth</h1>
+		<div class="graph">
+			<h1 class="text title size">size</h1>
+			<h1 class="text title growth">growth</h1>
+		</div>
+		<h1 class="text indication">Stop when it feels right and share</h1>
 		<script type="module" src="js/main.js"></script>
 	</body>
 </html>
